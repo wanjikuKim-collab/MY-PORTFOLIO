@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
 header{
     display: flex;
     justify-content: space-between;
@@ -45,4 +46,40 @@ a{
 
 a:hover{
     color: rgb(16, 20, 24);    
+}
+
+/* MAIN */
+body main{
+    text-align:center;
+}
+
+h6{
+    padding-top:2.5rem;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(41, 62, 82);
+}
+
+h1{
+    font-size:5rem;
+    font-family:'Fira Sans', sans-serif;   
+    font-weight: 700;
+}
+
+#software{
+    color: rgb(41, 62, 82);
+}
+
+#software:hover{
+    color: rgb(205, 217, 228);
+    transform: scale(1.20);
+}
+
+#Hardware{
+    color: rgba(0, 0, 0, 0.26);;
+}
+
+#Hardware:hover{
+    color: rgb(41, 62, 82);
+    transform: scale(1.20)
 }
