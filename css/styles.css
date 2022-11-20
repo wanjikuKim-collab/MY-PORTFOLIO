@@ -1,14 +1,18 @@
  /* hero content */
+ *{
+    margin: 0;
+
+ }
 
 #hero{
     height: 800px;
-    background-image: url(/images/);
+    background-image: url(/images/white-grey.jpeg);
     background-position: center;
     background-size: contain;
 
 }
 #hero-content{
-    width: 900px; 
+    width: 900px;     
     background-color: rgba(51, 47, 47, 0.8);
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
     border-radius: 8px;
@@ -18,43 +22,56 @@
     position: relative;
     top: 150px;
     display: flex;
+    justify-content: space-between;
 }
 
 h6{
     padding-top:3rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
-    color: rgb(65, 182, 94);
+    color: rgb(241, 245, 190);
+    padding-bottom: 60px;
     
-;
 }
 
 #hero-content p{
-    font-size:4rem;
+    font-size:3.8rem;
     font-family:'Fira Sans', sans-serif;   
-    font-weight: 700;
-    color: rgb(64, 190, 94);
+    font-weight: 400;
+    color: rgb(236, 238, 221);
+    padding-left: 42px;
+   padding-bottom: 20px;
+   padding-top:20px;
 }
 
-/*#software{
-    position: relative;
-}
 
-#software:hover{
-    /* color: rgb(205, 217, 228); 
+
+#hero-content p:hover{
     transform: scale(1.20);
-    color: rgb(218, 225, 231);
-   
+    color: rgb(154, 163, 28);  
 }
 
-#Hardware{  
-    position: relative;
+#hero-content a{
+    text-decoration: none;
+    padding: 12px 24px;
+    color: black;
+    background-color: rgb(168, 202, 15);
+    font-size: 24px;
+    font-weight: 600;
+    border-radius:  8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+
 }
 
-#Hardware:hover{    
+#hero-content a:hover{
+    background-color: rgb(123, 148, 12);
+}
+
+
+#hero-content h6:hover{    
     transform: scale(1.20);
-    color: rgb(218, 225, 231);   
-} */
+    color: rgb(154, 163, 28);
+} 
 
 
 
