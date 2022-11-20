@@ -1,17 +1,23 @@
  /* hero content */
 
 #hero{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    top: 0;
+    height: 800px;
+    background-image: url(/images/);
+    background-position: center;
+    background-size: contain;
 
 }
-
-body main{
+#hero-content{
+    width: 900px; 
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
     display: flex;
-    justify-content: space-between;
-
 }
 
 h6{
@@ -19,23 +25,23 @@ h6{
     font-size: 1.5rem;
     font-weight: 300;
     color: rgb(65, 182, 94);
-    padding: 24px;
-    margin: 20px;
+    
+;
 }
 
-h1{
-    font-size:80px;
+#hero-content p{
+    font-size:4rem;
     font-family:'Fira Sans', sans-serif;   
     font-weight: 700;
     color: rgb(64, 190, 94);
 }
 
-#software{
+/*#software{
     position: relative;
 }
 
 #software:hover{
-    /* color: rgb(205, 217, 228); */
+    /* color: rgb(205, 217, 228); 
     transform: scale(1.20);
     color: rgb(218, 225, 231);
    
@@ -48,14 +54,14 @@ h1{
 #Hardware:hover{    
     transform: scale(1.20);
     color: rgb(218, 225, 231);   
-}
+} */
 
 
 
 
 
 /* image edits */
- main img{
+ /* main img{
     text-align: center; 
     z-index:3; 
     position: absolute;
@@ -65,7 +71,7 @@ h1{
     z-index: 3;
     height: 80%;
     
-} 
+}  */
 
 /* main img{
     border-radius: 10px;
