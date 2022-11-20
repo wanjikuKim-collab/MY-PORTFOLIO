@@ -1,14 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* HEADER */
 header{
     display: flex;
     justify-content: space-between;
-    /* background-color: rgb(242, 255, 238); */
+    align-items: center;
+    padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left:0;
+    box-sizing: border-box;
 }
 
 #logo img {
@@ -30,7 +35,7 @@ header ul li{
     font-family:'Fira Sans', sans-serif;
     font-weight:400;
     font-size: 1.15rem;
-    color: rgb(42, 43, 44);
+    color: rgb(220, 245, 224);
 }
 
 .nav-items:hover{
@@ -42,44 +47,82 @@ a{
     background-color: transparent;
     cursor: pointer;
     transition:400ms;
+    color: antiquewhite;
 }
 
 a:hover{
-    color: rgb(16, 20, 24);    
+    color: rgb(16, 24, 18);    
 }
 
-/* MAIN */
+#intro{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    top: 0;
+
+}
+
 body main{
-    text-align:center;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 h6{
-    padding-top:2.5rem;
-    font-size: 2rem;
+    padding-top:3rem;
+    font-size: 1.5rem;
     font-weight: 300;
-    color: rgb(41, 62, 82);
+    color: rgb(65, 182, 94);
+    padding: 24px;
+    margin: 20px;
 }
 
 h1{
-    font-size:5rem;
+    font-size:80px;
     font-family:'Fira Sans', sans-serif;   
     font-weight: 700;
+    color: rgb(64, 190, 94);
 }
 
 #software{
-    color: rgb(41, 62, 82);
+    position: relative;
 }
 
 #software:hover{
-    color: rgb(205, 217, 228);
+    /* color: rgb(205, 217, 228); */
     transform: scale(1.20);
+    color: rgb(218, 225, 231);
+   
 }
 
-#Hardware{
-    color: rgba(0, 0, 0, 0.26);;
+#Hardware{  
+    position: relative;
 }
 
-#Hardware:hover{
-    color: rgb(41, 62, 82);
-    transform: scale(1.20)
+#Hardware:hover{    
+    transform: scale(1.20);
+    color: rgb(218, 225, 231);   
 }
+
+
+
+
+
+/* image edits */
+ main img{
+    text-align: center; 
+    z-index:3; 
+    position: absolute;
+    bottom: 0;    
+    left: auto;
+    right: auto;
+    z-index: 3;
+    height: 80%;
+    
+} 
+
+/* main img{
+    border-radius: 10px;
+} */
+
+
